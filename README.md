@@ -8,6 +8,7 @@ How to Install
 
 - Download the files using the GitHub .zip download option
 - Copy the `p5js-snippets.sublime-completions` to your Sublime Text `Packages` directory e.g. OS X: `~/Library/Application Support/Sublime Text 3/Packages/P5`
+- Restart Sublime
 
 Credits
 -------
