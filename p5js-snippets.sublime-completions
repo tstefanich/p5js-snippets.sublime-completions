@@ -1,0 +1,1690 @@
+{
+  "#": "Generated with Atomizr – https://atom.io/packages/atomizr",
+  "scope": "source.js",
+  "completions": [
+    {
+      "contents": "alpha(${1:obj})",
+      "trigger": "alpha(obj)"
+    },
+    {
+      "contents": "blue(${1:obj})",
+      "trigger": "blue(obj)"
+    },
+    {
+      "contents": "brightness(${1:color})",
+      "trigger": "brightness(color)"
+    },
+    {
+      "contents": "color(${1:gray},${2:alpha})",
+      "trigger": "color(gray,alpha)"
+    },
+    {
+      "contents": "color(${1:v1},${2:v2},${3:v3},${4:alpha})",
+      "trigger": "color(v1,v2,v3,alpha)"
+    },
+    {
+      "contents": "green(${1:color})",
+      "trigger": "green(color)"
+    },
+    {
+      "contents": "hue(${1:color})",
+      "trigger": "hue(color)"
+    },
+    {
+      "contents": "lerpColor(${1:c1},${2:c2},${3:amt})",
+      "trigger": "lerpColor(c1,c2,amt)"
+    },
+    {
+      "contents": "lightness(${1:color})",
+      "trigger": "lightness(color)"
+    },
+    {
+      "contents": "red(${1:obj})",
+      "trigger": "red(obj)"
+    },
+    {
+      "contents": "red()",
+      "trigger": "red()"
+    },
+    {
+      "contents": "red(${1:args})",
+      "trigger": "red(args)"
+    },
+    {
+      "contents": "background(${1:color},${2:a})",
+      "trigger": "background(color,a)"
+    },
+    {
+      "contents": "background(${1:colorstring},${2:a})",
+      "trigger": "background(colorstring,a)"
+    },
+    {
+      "contents": "background(${1:gray},${2:a})",
+      "trigger": "background(gray,a)"
+    },
+    {
+      "contents": "background(${1:v1},${2:v2},${3:v3},${4:a})",
+      "trigger": "background(v1,v2,v3,a)"
+    },
+    {
+      "contents": "background(${1:image},${2:a})",
+      "trigger": "background(image,a)"
+    },
+    {
+      "contents": "clear()",
+      "trigger": "clear()"
+    },
+    {
+      "contents": "fill(${1:v1},${2:v2},${3:v3},${4:a})",
+      "trigger": "fill(v1,v2,v3,a)"
+    },
+    {
+      "contents": "noFill()",
+      "trigger": "noFill()"
+    },
+    {
+      "contents": "stroke(${1:v1},${2:v2},${3:v3},${4:a})",
+      "trigger": "stroke(v1,v2,v3,a)"
+    },
+    {
+      "contents": "stroke()",
+      "trigger": "stroke()"
+    },
+    {
+      "contents": "ellipse(${1:x},${2:y},${3:w},${4:h})",
+      "trigger": "ellipse(x,y,w,h)"
+    },
+    {
+      "contents": "quad(${1:x1},${2:y1},${3:x2},${4:y2},${5:x3},${6:y3},${7:x4},${8:y4})",
+      "trigger": "quad(x1,y1,x2,y2,x3,y3,x4,y4)"
+    },
+    {
+      "contents": "rect(${1:x},${2:y},${3:w},${4:h},${5:tl},${6:tr},${7:br},${8:bl})",
+      "trigger": "rect(x,y,w,h,tl,tr,br,bl)"
+    },
+    {
+      "contents": "rect(${1:x},${2:y},${3:w},${4:h},${5:detailX},${6:detailY})",
+      "trigger": "rect(x,y,w,h,detailX,detailY)"
+    },
+    {
+      "contents": "rect()",
+      "trigger": "rect()"
+    },
+    {
+      "contents": "ellipseMode(${1:mode})",
+      "trigger": "ellipseMode(mode)"
+    },
+    {
+      "contents": "noSmooth()",
+      "trigger": "noSmooth()"
+    },
+    {
+      "contents": "rectMode(${1:mode})",
+      "trigger": "rectMode(mode)"
+    },
+    {
+      "contents": "smooth()",
+      "trigger": "smooth()"
+    },
+    {
+      "contents": "strokeCap(${1:cap})",
+      "trigger": "strokeCap(cap)"
+    },
+    {
+      "contents": "strokeJoin(${1:join})",
+      "trigger": "strokeJoin(join)"
+    },
+    {
+      "contents": "strokeWeight(${1:weight})",
+      "trigger": "strokeWeight(weight)"
+    },
+    {
+      "contents": "strokeWeight()",
+      "trigger": "strokeWeight()"
+    },
+    {
+      "contents": "HALF_PI",
+      "trigger": "HALF_PI"
+    },
+    {
+      "contents": "PI",
+      "trigger": "PI"
+    },
+    {
+      "contents": "QUARTER_PI",
+      "trigger": "QUARTER_PI"
+    },
+    {
+      "contents": "TAU",
+      "trigger": "TAU"
+    },
+    {
+      "contents": "TWO_PI",
+      "trigger": "TWO_PI"
+    },
+    {
+      "contents": "preload()",
+      "trigger": "preload()"
+    },
+    {
+      "contents": "setup()",
+      "trigger": "setup()"
+    },
+    {
+      "contents": "draw()",
+      "trigger": "draw()"
+    },
+    {
+      "contents": "remove()",
+      "trigger": "remove()"
+    },
+    {
+      "contents": "bezier(${1:x1},${2:y1},${3:x2},${4:y2},${5:x3},${6:y3},${7:x4},${8:y4})",
+      "trigger": "bezier(x1,y1,x2,y2,x3,y3,x4,y4)"
+    },
+    {
+      "contents": "bezier(${1:detail})",
+      "trigger": "bezier(detail)"
+    },
+    {
+      "contents": "bezierPoint(${1:a},${2:b},${3:c},${4:d},${5:t})",
+      "trigger": "bezierPoint(a,b,c,d,t)"
+    },
+    {
+      "contents": "bezierTangent(${1:a},${2:b},${3:c},${4:d},${5:t})",
+      "trigger": "bezierTangent(a,b,c,d,t)"
+    },
+    {
+      "contents": "curve(${1:x1},${2:y1},${3:x2},${4:y2},${5:x3},${6:y3},${7:x4},${8:y4})",
+      "trigger": "curve(x1,y1,x2,y2,x3,y3,x4,y4)"
+    },
+    {
+      "contents": "curve(${1:z1},${2:z2},${3:z3},${4:z4})",
+      "trigger": "curve(z1,z2,z3,z4)"
+    },
+    {
+      "contents": "curve(${1:resolution})",
+      "trigger": "curve(resolution)"
+    },
+    {
+      "contents": "curveTightness(${1:amount})",
+      "trigger": "curveTightness(amount)"
+    },
+    {
+      "contents": "curveTightness()",
+      "trigger": "curveTightness()"
+    },
+    {
+      "contents": "print(${1:contents})",
+      "trigger": "print(contents)"
+    },
+    {
+      "contents": "frameCount",
+      "trigger": "frameCount"
+    },
+    {
+      "contents": "focused",
+      "trigger": "focused"
+    },
+    {
+      "contents": "cursor(${1:type},${2:x},${3:y})",
+      "trigger": "cursor(type,x,y)"
+    },
+    {
+      "contents": "frameRate(${1:fps})",
+      "trigger": "frameRate(fps)"
+    },
+    {
+      "contents": "frameRate()",
+      "trigger": "frameRate()"
+    },
+    {
+      "contents": "noCursor()",
+      "trigger": "noCursor()"
+    },
+    {
+      "contents": "displayWidth",
+      "trigger": "displayWidth"
+    },
+    {
+      "contents": "displayHeight",
+      "trigger": "displayHeight"
+    },
+    {
+      "contents": "windowWidth",
+      "trigger": "windowWidth"
+    },
+    {
+      "contents": "windowResized()",
+      "trigger": "windowResized()"
+    },
+    {
+      "contents": "width",
+      "trigger": "width"
+    },
+    {
+      "contents": "height",
+      "trigger": "height"
+    },
+    {
+      "contents": "fullscreen(${1:val})",
+      "trigger": "fullscreen(val)"
+    },
+    {
+      "contents": "pixelDensity(${1:val})",
+      "trigger": "pixelDensity(val)"
+    },
+    {
+      "contents": "displayDensity()",
+      "trigger": "displayDensity()"
+    },
+    {
+      "contents": "getURL()",
+      "trigger": "getURL()"
+    },
+    {
+      "contents": "getURLParams()",
+      "trigger": "getURLParams()"
+    },
+    {
+      "contents": "getURLParams(${1:message},${2:func},${3:color})",
+      "trigger": "getURLParams(message,func,color)"
+    },
+    {
+      "contents": "getURLParams(${1:elt},${2:pInst})",
+      "trigger": "getURLParams(elt,pInst)"
+    },
+    {
+      "contents": "elt",
+      "trigger": "elt"
+    },
+    {
+      "contents": "parent(${1:parent})",
+      "trigger": "parent(parent)"
+    },
+    {
+      "contents": "id(${1:id})",
+      "trigger": "id(id)"
+    },
+    {
+      "contents": "class(${1:class})",
+      "trigger": "class(class)"
+    },
+    {
+      "contents": "mousePressed(${1:fxn})",
+      "trigger": "mousePressed(fxn)"
+    },
+    {
+      "contents": "mouseWheel(${1:fxn})",
+      "trigger": "mouseWheel(fxn)"
+    },
+    {
+      "contents": "mouseReleased(${1:fxn})",
+      "trigger": "mouseReleased(fxn)"
+    },
+    {
+      "contents": "mouseClicked(${1:fxn})",
+      "trigger": "mouseClicked(fxn)"
+    },
+    {
+      "contents": "mouseMoved(${1:fxn})",
+      "trigger": "mouseMoved(fxn)"
+    },
+    {
+      "contents": "mouseOver(${1:fxn})",
+      "trigger": "mouseOver(fxn)"
+    },
+    {
+      "contents": "changed(${1:fxn})",
+      "trigger": "changed(fxn)"
+    },
+    {
+      "contents": "input(${1:fxn})",
+      "trigger": "input(fxn)"
+    },
+    {
+      "contents": "mouseOut(${1:fxn})",
+      "trigger": "mouseOut(fxn)"
+    },
+    {
+      "contents": "touchStarted(${1:fxn})",
+      "trigger": "touchStarted(fxn)"
+    },
+    {
+      "contents": "touchMoved(${1:fxn})",
+      "trigger": "touchMoved(fxn)"
+    },
+    {
+      "contents": "touchEnded(${1:fxn})",
+      "trigger": "touchEnded(fxn)"
+    },
+    {
+      "contents": "dragOver(${1:fxn})",
+      "trigger": "dragOver(fxn)"
+    },
+    {
+      "contents": "dragLeave(${1:fxn})",
+      "trigger": "dragLeave(fxn)"
+    },
+    {
+      "contents": "drop(${1:callback},${2:callback})",
+      "trigger": "drop(callback,callback)"
+    },
+    {
+      "contents": "drop()",
+      "trigger": "drop()"
+    },
+    {
+      "contents": "drop(${1:elt},${2:pInst},${3:whether})",
+      "trigger": "drop(elt,pInst,whether)"
+    },
+    {
+      "contents": "createCanvas(${1:w},${2:h},${3:renderer})",
+      "trigger": "createCanvas(w,h,renderer)"
+    },
+    {
+      "contents": "resizeCanvas()",
+      "trigger": "resizeCanvas()"
+    },
+    {
+      "contents": "noCanvas()",
+      "trigger": "noCanvas()"
+    },
+    {
+      "contents": "createGraphics(${1:w},${2:h},${3:renderer})",
+      "trigger": "createGraphics(w,h,renderer)"
+    },
+    {
+      "contents": "blendMode(${1:mode})",
+      "trigger": "blendMode(mode)"
+    },
+    {
+      "contents": "blendMode()",
+      "trigger": "blendMode()"
+    },
+    {
+      "contents": "loop()",
+      "trigger": "loop()"
+    },
+    {
+      "contents": "push()",
+      "trigger": "push()"
+    },
+    {
+      "contents": "pop()",
+      "trigger": "pop()"
+    },
+    {
+      "contents": "redraw(${1:n})",
+      "trigger": "redraw(n)"
+    },
+    {
+      "contents": "redraw()",
+      "trigger": "redraw()"
+    },
+    {
+      "contents": "applyMatrix(${1:n00},${2:n01},${3:n02},${4:n10},${5:n11},${6:n12})",
+      "trigger": "applyMatrix(n00,n01,n02,n10,n11,n12)"
+    },
+    {
+      "contents": "resetMatrix()",
+      "trigger": "resetMatrix()"
+    },
+    {
+      "contents": "rotate(${1:angle})",
+      "trigger": "rotate(angle)"
+    },
+    {
+      "contents": "rotate(${1:rad},${2:axis})",
+      "trigger": "rotate(rad,axis)"
+    },
+    {
+      "contents": "rotateX(${1:rad})",
+      "trigger": "rotateX(rad)"
+    },
+    {
+      "contents": "rotateY(${1:rad})",
+      "trigger": "rotateY(rad)"
+    },
+    {
+      "contents": "rotateZ(${1:rad})",
+      "trigger": "rotateZ(rad)"
+    },
+    {
+      "contents": "scale(${1:s},${2:y},${3:z})",
+      "trigger": "scale(s,y,z)"
+    },
+    {
+      "contents": "shearX(${1:angle})",
+      "trigger": "shearX(angle)"
+    },
+    {
+      "contents": "shearY(${1:angle})",
+      "trigger": "shearY(angle)"
+    },
+    {
+      "contents": "translate(${1:x},${2:y},${3:z})",
+      "trigger": "translate(x,y,z)"
+    },
+    {
+      "contents": "translate()",
+      "trigger": "translate()"
+    },
+    {
+      "contents": "beginContour()",
+      "trigger": "beginContour()"
+    },
+    {
+      "contents": "beginShape(${1:kind})",
+      "trigger": "beginShape(kind)"
+    },
+    {
+      "contents": "bezierVertex(${1:x2},${2:y2},${3:x3},${4:y3},${5:x4},${6:y4})",
+      "trigger": "bezierVertex(x2,y2,x3,y3,x4,y4)"
+    },
+    {
+      "contents": "curveVertex(${1:x},${2:y})",
+      "trigger": "curveVertex(x,y)"
+    },
+    {
+      "contents": "endContour()",
+      "trigger": "endContour()"
+    },
+    {
+      "contents": "endShape(${1:mode})",
+      "trigger": "endShape(mode)"
+    },
+    {
+      "contents": "quadraticVertex(${1:cx},${2:cy},${3:x3},${4:y3})",
+      "trigger": "quadraticVertex(cx,cy,x3,y3)"
+    },
+    {
+      "contents": "vertex(${1:x},${2:y})",
+      "trigger": "vertex(x,y)"
+    },
+    {
+      "contents": "vertex()",
+      "trigger": "vertex()"
+    },
+    {
+      "contents": "deviceOrientation",
+      "trigger": "deviceOrientation"
+    },
+    {
+      "contents": "accelerationX",
+      "trigger": "accelerationX"
+    },
+    {
+      "contents": "accelerationY",
+      "trigger": "accelerationY"
+    },
+    {
+      "contents": "accelerationZ",
+      "trigger": "accelerationZ"
+    },
+    {
+      "contents": "pAccelerationX",
+      "trigger": "pAccelerationX"
+    },
+    {
+      "contents": "pAccelerationY",
+      "trigger": "pAccelerationY"
+    },
+    {
+      "contents": "pAccelerationZ",
+      "trigger": "pAccelerationZ"
+    },
+    {
+      "contents": "rotationX",
+      "trigger": "rotationX"
+    },
+    {
+      "contents": "rotationY",
+      "trigger": "rotationY"
+    },
+    {
+      "contents": "rotationZ",
+      "trigger": "rotationZ"
+    },
+    {
+      "contents": "pRotationX",
+      "trigger": "pRotationX"
+    },
+    {
+      "contents": "pRotationY",
+      "trigger": "pRotationY"
+    },
+    {
+      "contents": "pRotationZ",
+      "trigger": "pRotationZ"
+    },
+    {
+      "contents": "setMoveThreshold(${1:value})",
+      "trigger": "setMoveThreshold(value)"
+    },
+    {
+      "contents": "setShakeThreshold(${1:value})",
+      "trigger": "setShakeThreshold(value)"
+    },
+    {
+      "contents": "deviceMoved()",
+      "trigger": "deviceMoved()"
+    },
+    {
+      "contents": "deviceTurned()",
+      "trigger": "deviceTurned()"
+    },
+    {
+      "contents": "deviceShaken()",
+      "trigger": "deviceShaken()"
+    },
+    {
+      "contents": "keyIsPressed",
+      "trigger": "keyIsPressed"
+    },
+    {
+      "contents": "key",
+      "trigger": "key"
+    },
+    {
+      "contents": "keyCode",
+      "trigger": "keyCode"
+    },
+    {
+      "contents": "keyPressed()",
+      "trigger": "keyPressed()"
+    },
+    {
+      "contents": "keyReleased()",
+      "trigger": "keyReleased()"
+    },
+    {
+      "contents": "keyTyped()",
+      "trigger": "keyTyped()"
+    },
+    {
+      "contents": "keyIsDown(${1:code})",
+      "trigger": "keyIsDown(code)"
+    },
+    {
+      "contents": "keyIsDown()",
+      "trigger": "keyIsDown()"
+    },
+    {
+      "contents": "mouseX",
+      "trigger": "mouseX"
+    },
+    {
+      "contents": "pmouseX",
+      "trigger": "pmouseX"
+    },
+    {
+      "contents": "pmouseY",
+      "trigger": "pmouseY"
+    },
+    {
+      "contents": "winMouseX",
+      "trigger": "winMouseX"
+    },
+    {
+      "contents": "pwinMouseX",
+      "trigger": "pwinMouseX"
+    },
+    {
+      "contents": "pwinMouseY",
+      "trigger": "pwinMouseY"
+    },
+    {
+      "contents": "mouseButton",
+      "trigger": "mouseButton"
+    },
+    {
+      "contents": "mouseIsPressed",
+      "trigger": "mouseIsPressed"
+    },
+    {
+      "contents": "mouseMoved()",
+      "trigger": "mouseMoved()"
+    },
+    {
+      "contents": "mouseDragged()",
+      "trigger": "mouseDragged()"
+    },
+    {
+      "contents": "mousePressed()",
+      "trigger": "mousePressed()"
+    },
+    {
+      "contents": "mouseReleased()",
+      "trigger": "mouseReleased()"
+    },
+    {
+      "contents": "mouseClicked()",
+      "trigger": "mouseClicked()"
+    },
+    {
+      "contents": "mouseWheel()",
+      "trigger": "mouseWheel()"
+    },
+    {
+      "contents": "touches[]",
+      "trigger": "touches[]"
+    },
+    {
+      "contents": "touchStarted()",
+      "trigger": "touchStarted()"
+    },
+    {
+      "contents": "touchMoved()",
+      "trigger": "touchMoved()"
+    },
+    {
+      "contents": "touchEnded()",
+      "trigger": "touchEnded()"
+    },
+    {
+      "contents": "touchEnded(${1:canvas})",
+      "trigger": "touchEnded(canvas)"
+    },
+    {
+      "contents": "touchEnded(${1:data},${2:i})",
+      "trigger": "touchEnded(data,i)"
+    },
+    {
+      "contents": "touchEnded(${1:pixels},${2:data})",
+      "trigger": "touchEnded(pixels,data)"
+    },
+    {
+      "contents": "touchEnded(${1:width},${2:height})",
+      "trigger": "touchEnded(width,height)"
+    },
+    {
+      "contents": "touchEnded(${1:func},${2:canvas},${3:level})",
+      "trigger": "touchEnded(func,canvas,level)"
+    },
+    {
+      "contents": "touchEnded(${1:canvas},${2:level})",
+      "trigger": "touchEnded(canvas,level)"
+    },
+    {
+      "contents": "createImage(${1:width},${2:height})",
+      "trigger": "createImage(width,height)"
+    },
+    {
+      "contents": "saveCanvas(${1:canvas},${2:filename},${3:extension})",
+      "trigger": "saveCanvas(canvas,filename,extension)"
+    },
+    {
+      "contents": "saveCanvas()",
+      "trigger": "saveCanvas()"
+    },
+    {
+      "contents": "loadImage(${1:path},${2:successCallback},${3:failureCallback})",
+      "trigger": "loadImage(path,successCallback,failureCallback)"
+    },
+    {
+      "contents": "loadImage(${1:sVal},${2:iVal})",
+      "trigger": "loadImage(sVal,iVal)"
+    },
+    {
+      "contents": "image(${1:img},${2:x},${3:y},${4:width},${5:height})",
+      "trigger": "image(img,x,y,width,height)"
+    },
+    {
+      "contents": "image(${1:img},${2:dx},${3:dy},${4:dWidth},${5:dHeight},${6:sx},${7:sy},${8:sWidth},${9:sHeight})",
+      "trigger": "image(img,dx,dy,dWidth,dHeight,sx,sy,sWidth,sHeight)"
+    },
+    {
+      "contents": "tint(${1:v1},${2:v2},${3:v3},${4:a})",
+      "trigger": "tint(v1,v2,v3,a)"
+    },
+    {
+      "contents": "noTint()",
+      "trigger": "noTint()"
+    },
+    {
+      "contents": "noTint(${1:The})",
+      "trigger": "noTint(The)"
+    },
+    {
+      "contents": "imageMode(${1:mode})",
+      "trigger": "imageMode(mode)"
+    },
+    {
+      "contents": "imageMode()",
+      "trigger": "imageMode()"
+    },
+    {
+      "contents": "imageMode(${1:width},${2:height},${3:pInst})",
+      "trigger": "imageMode(width,height,pInst)"
+    },
+    {
+      "contents": "pixels[]",
+      "trigger": "pixels[]"
+    },
+    {
+      "contents": "loadPixels()",
+      "trigger": "loadPixels()"
+    },
+    {
+      "contents": "updatePixels(${1:x},${2:y},${3:w},${4:h})",
+      "trigger": "updatePixels(x,y,w,h)"
+    },
+    {
+      "contents": "get(${1:x},${2:y},${3:w},${4:h})",
+      "trigger": "get(x,y,w,h)"
+    },
+    {
+      "contents": "set(${1:x},${2:y},${3:a})",
+      "trigger": "set(x,y,a)"
+    },
+    {
+      "contents": "copy(${1:srcImage},${2:sx},${3:sy},${4:sw},${5:sh},${6:dx},${7:dy},${8:dw},${9:dh})",
+      "trigger": "copy(srcImage,sx,sy,sw,sh,dx,dy,dw,dh)"
+    },
+    {
+      "contents": "mask(${1:srcImage})",
+      "trigger": "mask(srcImage)"
+    },
+    {
+      "contents": "filter(${1:operation},${2:value})",
+      "trigger": "filter(operation,value)"
+    },
+    {
+      "contents": "blend(${1:srcImage},${2:sx},${3:sy},${4:sw},${5:sh},${6:dx},${7:dy},${8:dw},${9:dh},${10:blendMode})",
+      "trigger": "blend(srcImage,sx,sy,sw,sh,dx,dy,dw,dh,blendMode)"
+    },
+    {
+      "contents": "save(${1:filename},${2:extension})",
+      "trigger": "save(filename,extension)"
+    },
+    {
+      "contents": "save()",
+      "trigger": "save()"
+    },
+    {
+      "contents": "filter(${1:filterType},${2:filterParam})",
+      "trigger": "filter(filterType,filterParam)"
+    },
+    {
+      "contents": "set(${1:x},${2:y},${3:c})",
+      "trigger": "set(x,y,c)"
+    },
+    {
+      "contents": "updatePixels(${1:x},${2:y},${3:w},${4:w})",
+      "trigger": "updatePixels(x,y,w,w)"
+    },
+    {
+      "contents": "updatePixels()",
+      "trigger": "updatePixels()"
+    },
+    {
+      "contents": "loadFont(${1:path},${2:callback})",
+      "trigger": "loadFont(path,callback)"
+    },
+    {
+      "contents": "loadJSON(${1:path},${2:callback},${3:errorCallback},${4:datatype})",
+      "trigger": "loadJSON(path,callback,errorCallback,datatype)"
+    },
+    {
+      "contents": "loadTable(${1:filename},${2:options},${3:callback})",
+      "trigger": "loadTable(filename,options,callback)"
+    },
+    {
+      "contents": "loadXML(${1:filename},${2:callback},${3:errorCallback})",
+      "trigger": "loadXML(filename,callback,errorCallback)"
+    },
+    {
+      "contents": "httpGet(${1:path},${2:data},${3:datatype},${4:callback},${5:errorCallback})",
+      "trigger": "httpGet(path,data,datatype,callback,errorCallback)"
+    },
+    {
+      "contents": "httpPost(${1:path},${2:data},${3:datatype},${4:callback},${5:errorCallback})",
+      "trigger": "httpPost(path,data,datatype,callback,errorCallback)"
+    },
+    {
+      "contents": "httpDo(${1:path},${2:method},${3:data},${4:datatype},${5:callback},${6:errorCallback})",
+      "trigger": "httpDo(path,method,data,datatype,callback,errorCallback)"
+    },
+    {
+      "contents": "httpDo()",
+      "trigger": "httpDo()"
+    },
+    {
+      "contents": "save(${1:objectOrFilename},${2:filename},${3:options})",
+      "trigger": "save(objectOrFilename,filename,options)"
+    },
+    {
+      "contents": "saveJSON(${1:json},${2:filename},${3:optimize})",
+      "trigger": "saveJSON(json,filename,optimize)"
+    },
+    {
+      "contents": "saveStrings(${1:list},${2:filename})",
+      "trigger": "saveStrings(list,filename)"
+    },
+    {
+      "contents": "saveTable(${1:Table},${2:filename},${3:options})",
+      "trigger": "saveTable(Table,filename,options)"
+    },
+    {
+      "contents": "saveTable(${1:dataToDownload},${2:filename},${3:extension})",
+      "trigger": "saveTable(dataToDownload,filename,extension)"
+    },
+    {
+      "contents": "saveTable(${1:href},${2:filename},${3:extension})",
+      "trigger": "saveTable(href,filename,extension)"
+    },
+    {
+      "contents": "saveTable(${1:filename})",
+      "trigger": "saveTable(filename)"
+    },
+    {
+      "contents": "saveTable()",
+      "trigger": "saveTable()"
+    },
+    {
+      "contents": "saveTable(${1:rows})",
+      "trigger": "saveTable(rows)"
+    },
+    {
+      "contents": "columns",
+      "trigger": "columns"
+    },
+    {
+      "contents": "rows",
+      "trigger": "rows"
+    },
+    {
+      "contents": "addRow(${1:row})",
+      "trigger": "addRow(row)"
+    },
+    {
+      "contents": "removeRow(${1:id})",
+      "trigger": "removeRow(id)"
+    },
+    {
+      "contents": "getRows()",
+      "trigger": "getRows()"
+    },
+    {
+      "contents": "findRow(${1:value},${2:column})",
+      "trigger": "findRow(value,column)"
+    },
+    {
+      "contents": "matchRow(${1:regexp},${2:column})",
+      "trigger": "matchRow(regexp,column)"
+    },
+    {
+      "contents": "matchRows(${1:regexp},${2:column})",
+      "trigger": "matchRows(regexp,column)"
+    },
+    {
+      "contents": "matchRows()",
+      "trigger": "matchRows()"
+    },
+    {
+      "contents": "removeTokens(${1:chars},${2:column})",
+      "trigger": "removeTokens(chars,column)"
+    },
+    {
+      "contents": "trim(${1:column})",
+      "trigger": "trim(column)"
+    },
+    {
+      "contents": "setString(${1:row},${2:column},${3:value})",
+      "trigger": "setString(row,column,value)"
+    },
+    {
+      "contents": "getArray()",
+      "trigger": "getArray()"
+    },
+    {
+      "contents": "getArray(${1:str},${2:separator})",
+      "trigger": "getArray(str,separator)"
+    },
+    {
+      "contents": "set(${1:column},${2:value})",
+      "trigger": "set(column,value)"
+    },
+    {
+      "contents": "setNum(${1:column},${2:value})",
+      "trigger": "setNum(column,value)"
+    },
+    {
+      "contents": "setString(${1:column},${2:value})",
+      "trigger": "setString(column,value)"
+    },
+    {
+      "contents": "get(${1:column})",
+      "trigger": "get(column)"
+    },
+    {
+      "contents": "getNum(${1:column})",
+      "trigger": "getNum(column)"
+    },
+    {
+      "contents": "getString(${1:column})",
+      "trigger": "getString(column)"
+    },
+    {
+      "contents": "getString()",
+      "trigger": "getString()"
+    },
+    {
+      "contents": "getParent()",
+      "trigger": "getParent()"
+    },
+    {
+      "contents": "getName()",
+      "trigger": "getName()"
+    },
+    {
+      "contents": "setName(${1:the})",
+      "trigger": "setName(the)"
+    },
+    {
+      "contents": "hasChildren()",
+      "trigger": "hasChildren()"
+    },
+    {
+      "contents": "listChildren()",
+      "trigger": "listChildren()"
+    },
+    {
+      "contents": "getChildren(${1:name})",
+      "trigger": "getChildren(name)"
+    },
+    {
+      "contents": "getChild(${1:name})",
+      "trigger": "getChild(name)"
+    },
+    {
+      "contents": "addChild(${1:a})",
+      "trigger": "addChild(a)"
+    },
+    {
+      "contents": "removeChild(${1:name})",
+      "trigger": "removeChild(name)"
+    },
+    {
+      "contents": "getAttributeCount()",
+      "trigger": "getAttributeCount()"
+    },
+    {
+      "contents": "listAttributes()",
+      "trigger": "listAttributes()"
+    },
+    {
+      "contents": "hasAttribute(${1:the})",
+      "trigger": "hasAttribute(the)"
+    },
+    {
+      "contents": "getNumber(${1:name},${2:defaultValue})",
+      "trigger": "getNumber(name,defaultValue)"
+    },
+    {
+      "contents": "getString(${1:name},${2:defaultValue})",
+      "trigger": "getString(name,defaultValue)"
+    },
+    {
+      "contents": "setAttribute(${1:name},${2:value})",
+      "trigger": "setAttribute(name,value)"
+    },
+    {
+      "contents": "getContent(${1:defaultValue})",
+      "trigger": "getContent(defaultValue)"
+    },
+    {
+      "contents": "setContent(${1:text})",
+      "trigger": "setContent(text)"
+    },
+    {
+      "contents": "setContent()",
+      "trigger": "setContent()"
+    },
+    {
+      "contents": "abs(${1:n})",
+      "trigger": "abs(n)"
+    },
+    {
+      "contents": "ceil(${1:n})",
+      "trigger": "ceil(n)"
+    },
+    {
+      "contents": "constrain(${1:n},${2:low},${3:high})",
+      "trigger": "constrain(n,low,high)"
+    },
+    {
+      "contents": "dist(${1:x1},${2:y1},${3:z1},${4:x2},${5:y2},${6:z2})",
+      "trigger": "dist(x1,y1,z1,x2,y2,z2)"
+    },
+    {
+      "contents": "exp(${1:n})",
+      "trigger": "exp(n)"
+    },
+    {
+      "contents": "floor(${1:n})",
+      "trigger": "floor(n)"
+    },
+    {
+      "contents": "lerp(${1:start},${2:stop},${3:amt})",
+      "trigger": "lerp(start,stop,amt)"
+    },
+    {
+      "contents": "log(${1:n})",
+      "trigger": "log(n)"
+    },
+    {
+      "contents": "mag(${1:a},${2:b})",
+      "trigger": "mag(a,b)"
+    },
+    {
+      "contents": "map(${1:value},${2:start1},${3:stop1},${4:start2},${5:stop2})",
+      "trigger": "map(value,start1,stop1,start2,stop2)"
+    },
+    {
+      "contents": "max(${1:n0})",
+      "trigger": "max(n0)"
+    },
+    {
+      "contents": "min(${1:n0})",
+      "trigger": "min(n0)"
+    },
+    {
+      "contents": "norm(${1:value},${2:start},${3:stop})",
+      "trigger": "norm(value,start,stop)"
+    },
+    {
+      "contents": "pow(${1:n},${2:e})",
+      "trigger": "pow(n,e)"
+    },
+    {
+      "contents": "round(${1:n})",
+      "trigger": "round(n)"
+    },
+    {
+      "contents": "sq(${1:n})",
+      "trigger": "sq(n)"
+    },
+    {
+      "contents": "sqrt(${1:n})",
+      "trigger": "sqrt(n)"
+    },
+    {
+      "contents": "sqrt()",
+      "trigger": "sqrt()"
+    },
+    {
+      "contents": "createVector(${1:x},${2:y},${3:z})",
+      "trigger": "createVector(x,y,z)"
+    },
+    {
+      "contents": "createVector()",
+      "trigger": "createVector()"
+    },
+    {
+      "contents": "noise(${1:x},${2:y},${3:z})",
+      "trigger": "noise(x,y,z)"
+    },
+    {
+      "contents": "noiseDetail(${1:lod},${2:falloff})",
+      "trigger": "noiseDetail(lod,falloff)"
+    },
+    {
+      "contents": "noiseSeed(${1:seed})",
+      "trigger": "noiseSeed(seed)"
+    },
+    {
+      "contents": "noiseSeed()",
+      "trigger": "noiseSeed()"
+    },
+    {
+      "contents": "noiseSeed(${1:x},${2:y},${3:z})",
+      "trigger": "noiseSeed(x,y,z)"
+    },
+    {
+      "contents": "x",
+      "trigger": "x"
+    },
+    {
+      "contents": "y",
+      "trigger": "y"
+    },
+    {
+      "contents": "z",
+      "trigger": "z"
+    },
+    {
+      "contents": "toString()",
+      "trigger": "toString()"
+    },
+    {
+      "contents": "set(${1:x},${2:y},${3:z})",
+      "trigger": "set(x,y,z)"
+    },
+    {
+      "contents": "copy()",
+      "trigger": "copy()"
+    },
+    {
+      "contents": "add(${1:x},${2:y},${3:z})",
+      "trigger": "add(x,y,z)"
+    },
+    {
+      "contents": "sub(${1:x},${2:y},${3:z})",
+      "trigger": "sub(x,y,z)"
+    },
+    {
+      "contents": "mult(${1:n})",
+      "trigger": "mult(n)"
+    },
+    {
+      "contents": "div(${1:n})",
+      "trigger": "div(n)"
+    },
+    {
+      "contents": "mag()",
+      "trigger": "mag()"
+    },
+    {
+      "contents": "magSq()",
+      "trigger": "magSq()"
+    },
+    {
+      "contents": "dot(${1:x},${2:y},${3:z})",
+      "trigger": "dot(x,y,z)"
+    },
+    {
+      "contents": "cross(${1:v})",
+      "trigger": "cross(v)"
+    },
+    {
+      "contents": "dist(${1:v})",
+      "trigger": "dist(v)"
+    },
+    {
+      "contents": "normalize()",
+      "trigger": "normalize()"
+    },
+    {
+      "contents": "limit(${1:max})",
+      "trigger": "limit(max)"
+    },
+    {
+      "contents": "setMag(${1:len})",
+      "trigger": "setMag(len)"
+    },
+    {
+      "contents": "heading()",
+      "trigger": "heading()"
+    },
+    {
+      "contents": "lerp(${1:x},${2:y},${3:z},${4:amt})",
+      "trigger": "lerp(x,y,z,amt)"
+    },
+    {
+      "contents": "array()",
+      "trigger": "array()"
+    },
+    {
+      "contents": "equals(${1:x},${2:y},${3:z})",
+      "trigger": "equals(x,y,z)"
+    },
+    {
+      "contents": "fromAngle(${1:angle})",
+      "trigger": "fromAngle(angle)"
+    },
+    {
+      "contents": "random2D()",
+      "trigger": "random2D()"
+    },
+    {
+      "contents": "random3D()",
+      "trigger": "random3D()"
+    },
+    {
+      "contents": "random3D(${1:v1},${2:v2},${3:target})",
+      "trigger": "random3D(v1,v2,target)"
+    },
+    {
+      "contents": "random3D(${1:v},${2:n},${3:target})",
+      "trigger": "random3D(v,n,target)"
+    },
+    {
+      "contents": "random3D(${1:v1},${2:v2})",
+      "trigger": "random3D(v1,v2)"
+    },
+    {
+      "contents": "random3D(${1:v1},${2:v2},${3:the})",
+      "trigger": "random3D(v1,v2,the)"
+    },
+    {
+      "contents": "angleBetween(${1:v1},${2:v2})",
+      "trigger": "angleBetween(v1,v2)"
+    },
+    {
+      "contents": "angleBetween()",
+      "trigger": "angleBetween()"
+    },
+    {
+      "contents": "randomSeed(${1:seed})",
+      "trigger": "randomSeed(seed)"
+    },
+    {
+      "contents": "random(${1:min},${2:max})",
+      "trigger": "random(min,max)"
+    },
+    {
+      "contents": "random(${1:choices})",
+      "trigger": "random(choices)"
+    },
+    {
+      "contents": "random()",
+      "trigger": "random()"
+    },
+    {
+      "contents": "acos(${1:value})",
+      "trigger": "acos(value)"
+    },
+    {
+      "contents": "asin(${1:value})",
+      "trigger": "asin(value)"
+    },
+    {
+      "contents": "atan(${1:value})",
+      "trigger": "atan(value)"
+    },
+    {
+      "contents": "atan2(${1:y},${2:x})",
+      "trigger": "atan2(y,x)"
+    },
+    {
+      "contents": "cos(${1:angle})",
+      "trigger": "cos(angle)"
+    },
+    {
+      "contents": "sin(${1:angle})",
+      "trigger": "sin(angle)"
+    },
+    {
+      "contents": "tan(${1:angle})",
+      "trigger": "tan(angle)"
+    },
+    {
+      "contents": "degrees(${1:radians})",
+      "trigger": "degrees(radians)"
+    },
+    {
+      "contents": "radians(${1:degrees})",
+      "trigger": "radians(degrees)"
+    },
+    {
+      "contents": "angleMode(${1:mode})",
+      "trigger": "angleMode(mode)"
+    },
+    {
+      "contents": "angleMode()",
+      "trigger": "angleMode()"
+    },
+    {
+      "contents": "angleMode(${1:pInst})",
+      "trigger": "angleMode(pInst)"
+    },
+    {
+      "contents": "font",
+      "trigger": "font"
+    },
+    {
+      "contents": "append(${1:array},${2:value})",
+      "trigger": "append(array,value)"
+    },
+    {
+      "contents": "arrayCopy(${1:src},${2:srcPosition},${3:dst},${4:dstPosition},${5:length})",
+      "trigger": "arrayCopy(src,srcPosition,dst,dstPosition,length)"
+    },
+    {
+      "contents": "concat(${1:a},${2:b})",
+      "trigger": "concat(a,b)"
+    },
+    {
+      "contents": "reverse(${1:list})",
+      "trigger": "reverse(list)"
+    },
+    {
+      "contents": "shorten(${1:list})",
+      "trigger": "shorten(list)"
+    },
+    {
+      "contents": "shuffle(${1:array},${2:bool})",
+      "trigger": "shuffle(array,bool)"
+    },
+    {
+      "contents": "sort(${1:list},${2:count})",
+      "trigger": "sort(list,count)"
+    },
+    {
+      "contents": "splice(${1:list},${2:value},${3:position})",
+      "trigger": "splice(list,value,position)"
+    },
+    {
+      "contents": "subset(${1:list},${2:start},${3:count})",
+      "trigger": "subset(list,start,count)"
+    },
+    {
+      "contents": "subset()",
+      "trigger": "subset()"
+    },
+    {
+      "contents": "float(${1:str})",
+      "trigger": "float(str)"
+    },
+    {
+      "contents": "int(${1:n})",
+      "trigger": "int(n)"
+    },
+    {
+      "contents": "str(${1:n})",
+      "trigger": "str(n)"
+    },
+    {
+      "contents": "boolean(${1:n})",
+      "trigger": "boolean(n)"
+    },
+    {
+      "contents": "byte(${1:n})",
+      "trigger": "byte(n)"
+    },
+    {
+      "contents": "char(${1:n})",
+      "trigger": "char(n)"
+    },
+    {
+      "contents": "unchar(${1:n})",
+      "trigger": "unchar(n)"
+    },
+    {
+      "contents": "hex(${1:n})",
+      "trigger": "hex(n)"
+    },
+    {
+      "contents": "unhex(${1:n})",
+      "trigger": "unhex(n)"
+    },
+    {
+      "contents": "unhex()",
+      "trigger": "unhex()"
+    },
+    {
+      "contents": "join(${1:list},${2:separator})",
+      "trigger": "join(list,separator)"
+    },
+    {
+      "contents": "match(${1:str},${2:regexp})",
+      "trigger": "match(str,regexp)"
+    },
+    {
+      "contents": "nf(${1:num},${2:left},${3:right})",
+      "trigger": "nf(num,left,right)"
+    },
+    {
+      "contents": "nfc(${1:num},${2:right})",
+      "trigger": "nfc(num,right)"
+    },
+    {
+      "contents": "nfp(${1:num},${2:left},${3:right})",
+      "trigger": "nfp(num,left,right)"
+    },
+    {
+      "contents": "nfs(${1:num},${2:left},${3:right})",
+      "trigger": "nfs(num,left,right)"
+    },
+    {
+      "contents": "split(${1:value},${2:delim})",
+      "trigger": "split(value,delim)"
+    },
+    {
+      "contents": "splitTokens(${1:value},${2:delim})",
+      "trigger": "splitTokens(value,delim)"
+    },
+    {
+      "contents": "trim(${1:str})",
+      "trigger": "trim(str)"
+    },
+    {
+      "contents": "trim()",
+      "trigger": "trim()"
+    },
+    {
+      "contents": "day()",
+      "trigger": "day()"
+    },
+    {
+      "contents": "hour()",
+      "trigger": "hour()"
+    },
+    {
+      "contents": "minute()",
+      "trigger": "minute()"
+    },
+    {
+      "contents": "millis()",
+      "trigger": "millis()"
+    },
+    {
+      "contents": "month()",
+      "trigger": "month()"
+    },
+    {
+      "contents": "second()",
+      "trigger": "second()"
+    },
+    {
+      "contents": "year()",
+      "trigger": "year()"
+    },
+    {
+      "contents": "camera(${1:x},${2:y},${3:z})",
+      "trigger": "camera(x,y,z)"
+    },
+    {
+      "contents": "perspective(${1:fovy},${2:aspect},${3:near},${4:far})",
+      "trigger": "perspective(fovy,aspect,near,far)"
+    },
+    {
+      "contents": "ortho(${1:left},${2:right},${3:bottom},${4:top},${5:near},${6:far})",
+      "trigger": "ortho(left,right,bottom,top,near,far)"
+    },
+    {
+      "contents": "ortho()",
+      "trigger": "ortho()"
+    },
+    {
+      "contents": "ambientLight(${1:v1},${2:v2},${3:v3},${4:a})",
+      "trigger": "ambientLight(v1,v2,v3,a)"
+    },
+    {
+      "contents": "directionalLight(${1:v1},${2:v2},${3:v3},${4:a},${5:x},${6:y},${7:z})",
+      "trigger": "directionalLight(v1,v2,v3,a,x,y,z)"
+    },
+    {
+      "contents": "pointLight(${1:v1},${2:v2},${3:v3},${4:a},${5:x},${6:y},${7:z})",
+      "trigger": "pointLight(v1,v2,v3,a,x,y,z)"
+    },
+    {
+      "contents": "pointLight()",
+      "trigger": "pointLight()"
+    },
+    {
+      "contents": "loadModel(${1:path},${2:normalize},${3:successCallback},${4:failureCallback})",
+      "trigger": "loadModel(path,normalize,successCallback,failureCallback)"
+    },
+    {
+      "contents": "loadModel()",
+      "trigger": "loadModel()"
+    },
+    {
+      "contents": "model(${1:model})",
+      "trigger": "model(model)"
+    },
+    {
+      "contents": "model()",
+      "trigger": "model()"
+    },
+    {
+      "contents": "normalMaterial()",
+      "trigger": "normalMaterial()"
+    },
+    {
+      "contents": "texture(${1:tex})",
+      "trigger": "texture(tex)"
+    },
+    {
+      "contents": "texture()",
+      "trigger": "texture()"
+    },
+    {
+      "contents": "texture(${1:value})",
+      "trigger": "texture(value)"
+    },
+    {
+      "contents": "ambientMaterial(${1:v1},${2:v2},${3:v3},${4:a})",
+      "trigger": "ambientMaterial(v1,v2,v3,a)"
+    },
+    {
+      "contents": "specularMaterial(${1:v1},${2:v2},${3:v3},${4:a})",
+      "trigger": "specularMaterial(v1,v2,v3,a)"
+    },
+    {
+      "contents": "specularMaterial(${1:vertData},${2:detailX},${3:detailY},${4:callback})",
+      "trigger": "specularMaterial(vertData,detailX,detailY,callback)"
+    },
+    {
+      "contents": "specularMaterial()",
+      "trigger": "specularMaterial()"
+    },
+    {
+      "contents": "specularMaterial(${1:mat4})",
+      "trigger": "specularMaterial(mat4)"
+    },
+    {
+      "contents": "specularMaterial(${1:inMatrix})",
+      "trigger": "specularMaterial(inMatrix)"
+    },
+    {
+      "contents": "specularMaterial(${1:a})",
+      "trigger": "specularMaterial(a)"
+    },
+    {
+      "contents": "specularMaterial(${1:mat3})",
+      "trigger": "specularMaterial(mat3)"
+    },
+    {
+      "contents": "specularMaterial(${1:multMatrix})",
+      "trigger": "specularMaterial(multMatrix)"
+    },
+    {
+      "contents": "specularMaterial(${1:\nvector})",
+      "trigger": "specularMaterial(\nvector)"
+    },
+    {
+      "contents": "specularMaterial(${1:a},${2:axis})",
+      "trigger": "specularMaterial(a,axis)"
+    },
+    {
+      "contents": "specularMaterial(${1:v})",
+      "trigger": "specularMaterial(v)"
+    },
+    {
+      "contents": "specularMaterial(${1:fovy},${2:aspect},${3:near},${4:far})",
+      "trigger": "specularMaterial(fovy,aspect,near,far)"
+    },
+    {
+      "contents": "specularMaterial(${1:left},${2:right},${3:bottom},${4:top},${5:near},${6:far})",
+      "trigger": "specularMaterial(left,right,bottom,top,near,far)"
+    },
+    {
+      "contents": "specularMaterial(${1:mode})",
+      "trigger": "specularMaterial(mode)"
+    },
+    {
+      "contents": "specularMaterial(${1:x},${2:y},${3:z})",
+      "trigger": "specularMaterial(x,y,z)"
+    },
+    {
+      "contents": "specularMaterial(${1:vertices})",
+      "trigger": "specularMaterial(vertices)"
+    },
+    {
+      "contents": "specularMaterial(${1:gId})",
+      "trigger": "specularMaterial(gId)"
+    },
+    {
+      "contents": "specularMaterial(${1:gId},${2:obj})",
+      "trigger": "specularMaterial(gId,obj)"
+    },
+    {
+      "contents": "specularMaterial(${1:arr})",
+      "trigger": "specularMaterial(arr)"
+    },
+    {
+      "contents": "specularMaterial(${1:vertId},${2:fragId})",
+      "trigger": "specularMaterial(vertId,fragId)"
+    },
+    {
+      "contents": "specularMaterial(${1:shaderKey},${2:uniform},${3:data})",
+      "trigger": "specularMaterial(shaderKey,uniform,data)"
+    },
+    {
+      "contents": "fill(${1:pointSize})",
+      "trigger": "fill(pointSize)"
+    },
+    {
+      "contents": "fill(${1:w},${2:h})",
+      "trigger": "fill(w,h)"
+    },
+    {
+      "contents": "fill(${1:r},${2:g},${3:b},${4:a})",
+      "trigger": "fill(r,g,b,a)"
+    },
+    {
+      "contents": "fill(${1:x},${2:y},${3:z})",
+      "trigger": "fill(x,y,z)"
+    },
+    {
+      "contents": "fill()",
+      "trigger": "fill()"
+    },
+    {
+      "contents": "plane(${1:width},${2:height},${3:detailX},${4:detailY})",
+      "trigger": "plane(width,height,detailX,detailY)"
+    },
+    {
+      "contents": "box(${1:width},${2:Height},${3:depth},${4:detailX},${5:detailY})",
+      "trigger": "box(width,Height,depth,detailX,detailY)"
+    },
+    {
+      "contents": "sphere(${1:radius},${2:detailX},${3:detailY})",
+      "trigger": "sphere(radius,detailX,detailY)"
+    },
+    {
+      "contents": "sphere()",
+      "trigger": "sphere()"
+    },
+    {
+      "contents": "cylinder(${1:radius},${2:height},${3:detailX},${4:detailY})",
+      "trigger": "cylinder(radius,height,detailX,detailY)"
+    },
+    {
+      "contents": "cone(${1:radius},${2:height},${3:detailX},${4:detailY})",
+      "trigger": "cone(radius,height,detailX,detailY)"
+    },
+    {
+      "contents": "ellipsoid(${1:radiusx},${2:radiusy},${3:radiusz},${4:detailX},${5:detailY})",
+      "trigger": "ellipsoid(radiusx,radiusy,radiusz,detailX,detailY)"
+    },
+    {
+      "contents": "torus(${1:radius},${2:tubeRadius},${3:detailX},${4:detailY})",
+      "trigger": "torus(radius,tubeRadius,detailX,detailY)"
+    }
+  ]
+}
