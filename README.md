@@ -1,7 +1,7 @@
 p5js-snippets.sublime-completions
 =================================
 
-A [p5.js](http://p5js.org/) addon for Submlime to allow for syntax highlighting and autocompletion in Sublime Text. 
+A [p5.js](http://p5js.org/) add-on for Sublime to allow for syntax highlighting and autocompletion in Sublime Text. 
 
 How to Install
 --------------
